@@ -1,0 +1,17 @@
+.app-container {
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+}
+
+.navigation {
+  padding: 30px 0;
+}
+
+.router-outlet {
+  flex: 1;
+  overflow: hidden;
+  padding-bottom: 50px;
+}
